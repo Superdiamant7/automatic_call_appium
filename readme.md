@@ -1,0 +1,26 @@
+# 📱 Appium Android Call Automation
+
+This Python script uses Appium and ADB to detect incoming phone calls on an Android device.  
+If no incoming call is detected after a set time, the script automatically places a call to a predefined number.
+
+---
+
+## 🚀 Features
+
+- Detects incoming calls using Android activity state.
+- Automatically answers calls via ADB.
+- Initiates outgoing calls using Android intent if no incoming call is detected.
+- Integrates Appium for full device control.
+- Fast and simple automation using Python.
+
+---
+
+## 🛠️ Requirements
+
+- Python 3.7+
+- Appium Server running on `http://localhost:4723`
+- Android device connected with **USB debugging enabled**
+- ADB installed and accessible from command line
+- Python packages:
+
+pip install Appium-Python-Client selenium
