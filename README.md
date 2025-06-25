@@ -27,9 +27,9 @@ pip install Appium-Python-Client selenium
 
 ## ⚙️ How to start
 
-- Start Appium with :
+- Start Appium (MAKE SURE YOU ALLOW INSECURE TO CRONTROL CALLS ON THE PHONE):
 
-appium
+appium --allow-insecure adb_shell
 
 - Execute the script with Python :
 
